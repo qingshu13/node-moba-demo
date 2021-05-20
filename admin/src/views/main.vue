@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-container style="height: 500px; border: 1px solid #eee">
-      <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+      <el-aside width="200px">
         <el-menu router :default-openeds="['1', '3']">
           <el-submenu index="1">
             <template slot="title"><i class="el-icon-message"></i>分类管理</template>
