@@ -8,7 +8,14 @@ const routes = [
   {
     path: '/',
     name: 'main',
-    component: main
+    component: main,
+    children:[
+      {
+        path:'/catgory/create',
+        name:'catgoryCreate',
+        component:resolve => require(['../views/catgoryCreate'],resolve) ,
+      }
+    ]
   },
 ]
 
