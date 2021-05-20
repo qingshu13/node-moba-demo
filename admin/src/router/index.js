@@ -14,6 +14,11 @@ const routes = [
         path:'/catgory/create',
         name:'catgoryCreate',
         component:resolve => require(['../views/catgoryCreate'],resolve) ,
+      },
+      {
+        path:'/catgory/list',
+        name:'catgoryList',
+        component:resolve => require(['../views/catgoryList'],resolve) ,
       }
     ]
   },
