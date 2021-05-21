@@ -1,0 +1,23 @@
+第一步现在github上新建项目
+本地 git clone   //github项目地址
+git add .
+git commit -m  'sss'
+git push -u origin main
+
+（2）
+在本地新建项目 
+git init
+git add .
+git commit -m  'sss'
+
+git remote add origin 项目地址
+git push -u origin main
+
+------------------------------------------------------
+git log 上传记录
+git status 修改状态
+git reset --hard 048963 //版本回退
+git checkout 897455 -- version.html //回退某个文件的某个版本
+git checkout -- home/home.html 回退某个文件下的某个文件
+
+git rm a.html
