@@ -1,0 +1,21 @@
+mkdir serve
+npm init -y
+npm install express
+npm install nodemon -g
+
+
+配置package.json
+"scripts": {
+    "start": "node server.js",//服务端启动
+    "server": "nodemon server.js"//本地测试
+  },
+
+npm run server
+
+localhost:5000
+———————————————————————
+element-ui后台管理参考
+https://blog.csdn.net/zhenghongcs/article/details/104386068
+————————————————————————
+vue创建项目
+https://www.jianshu.com/p/0f945a04c887#comments
