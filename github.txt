@@ -20,4 +20,30 @@ git reset --hard 048963 //版本回退
 git checkout 897455 -- version.html //回退某个文件的某个版本
 git checkout -- home/home.html 回退某个文件下的某个文件
 
-git rm a.html
+git rm a.html  //删除一个文件  然后 git add . 等等
+
+--------------------------------------------------------
+git branch  dev  新建分支
+
+git branch  检查所有分支 * 代表当前在哪个分支
+
+git  checkout  dev  切换分支
+
+git branch -d  dev  删除一个分支
+
+git  checkout -b  test  新建一个分支并跳转
+----------------------------------------------------------
+git merge  dev  合并分支
+
+git merge --abort  忽略其它分支代码，保留原分支代码
+
+先按ESC 在按 :wq
+
+------------------------------------------------------------
+
+查看版本路线
+
+git log --oneline --graph 
+
+删除不想要的分支
+git push origin  --delete 分支名
